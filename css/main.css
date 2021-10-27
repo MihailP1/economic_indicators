@@ -1,0 +1,30 @@
+body {
+    background: #444444;
+    margin: 0;
+}
+
+header {
+    color: #eeeeee;
+    text-align: center;
+    background: #000;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    
+}
+
+
+.main_container {
+    display: flex;
+    width: 100%;
+}
+
+.column1, .column2 {
+    flex-grow: 1;
+    margin: 2%;
+}
+
+@media screen and (max-width: 1199px) {
+    .main_container {
+        flex-direction: column
+    }
+}
