@@ -23,6 +23,13 @@ header {
     margin: 2%;
 }
 
+footer {
+    color: #eeeeee;
+    background: #000;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: center;      
+}
 @media screen and (max-width: 1199px) {
     .main_container {
         flex-direction: column
